@@ -1,0 +1,82 @@
+    "username": "customer1@gmail.com",
+    "password": "password"
+
+    "username": "washer1",
+    "username": "washer1",
+
+
+
+
+
+
+AcceptedOrder
+GET AcceptedOrder
+​http://127.0.0.1:8000/api​/orders_to_drive
+
+Answer
+GET Answer
+​http://127.0.0.1:8000/api/answers
+
+Combo
+GET Combo
+​http://127.0.0.1:8000/api/combos
+
+Customers
+GET Customers
+​http://127.0.0.1:8000/api/customers
+
+Trip
+GET Trip
+​http://127.0.0.1:8000/api/delivery/{washcode}
+​http://127.0.0.1:8000/api/trips
+
+Driver
+GET Driver
+​http://127.0.0.1:8000/api/drivers
+
+Feedback
+GET Feedback
+​http://127.0.0.1:8000/api/feedback
+
+Invitation
+GET Invitation
+​http://127.0.0.1:8000/api/invitations
+
+LaundryLoad
+GET LaundryLoad
+​http://127.0.0.1:8000/api/laundry_loads
+
+MediaObject
+GET MediaObject
+​http://127.0.0.1:8000/api/media_objects
+
+NewOrder
+GET NewOrder
+​http://127.0.0.1:8000/api/new_order
+​http://127.0.0.1:8000/api/new_orders
+
+Question
+GET Question
+​http://127.0.0.1:8000/api/questions
+
+QuizQuestion
+GET QuizQuestion
+​http://127.0.0.1:8000/api/quiz_questions
+
+Quiz
+GET Quiz
+​http://127.0.0.1:8000/api/quizzes
+
+ReceivedOrder
+GET ReceivedOrder 
+​http://127.0.0.1:8000/api/received_order/1
+POST ReceivedOrder 
+​http://127.0.0.1:8000/api/received_orders
+
+Washer
+GET Washer 
+​http://127.0.0.1:8000/api/received_orders
+​http://127.0.0.1:8000/api/washers
+​http://127.0.0.1:8000/api/washers/{id}/orderzs
+POST Washer
+​http://127.0.0.1:8000/api/washers
